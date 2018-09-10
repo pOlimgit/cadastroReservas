@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>práticajs</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css\bootstrap.css">
+</head>
+<main>
+	<section class="container">
+
+		<body>
+			<header>
+				<div>
+					<h2>Clientes em Reserva</h2>
+				</div>
+			</header>
+			<main>
+				<table class="table">
+					<thead>
+						<th>Cliente</th>
+						<th>Data da Reserva</th>
+					</thead>
+					<tbody id="tableuser">
+					</tbody>
+			</main>
+			</table>
+	</section>
+</main>
+<section class="container">
+	<h2>Agendar Reservas</h2>
+	<form id="cadcliente">
+		<div>
+			<label for="nome">Nome:</label>
+			<input id="nome" type="text" name="name" placeholder="Nome do Cliente">
+		</div>
+		<div>
+			<label for="data">Pretensão:</label>
+			<input id="data" type="date" name="date" placeholder="Nome do Cliente">
+		</div>
+		<div>
+			<button id="botaocadastrar">Cadastrar</button>
+		</div>
+	</form>
+</section>
+<script src="js\formlistaclientes.js"></script>
+</body>
+
+</html>
